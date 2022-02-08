@@ -14,11 +14,11 @@ export default function Home() {
   return (
     <PageTemplate>
       <HeroSlider
-        headline="React three fiber"
-        subheadline="is a react renderer for three.js"
+        headline="Impact Gemstone"
+        subheadline="Hardest assets are now liqud!"
       />
       <Benefits
-        headline="Build Threejs applications declaratively & with re-usable components"
+        headline="Trade gemstones frictionless while original is secured in vault "
         benefits={getLandingPageBenefits()}
       />
       <GettingStarted />
@@ -31,27 +31,27 @@ function getLandingPageBenefits(): TBenefit[] {
   return [
     {
       icon: <PuzzleSVG />,
-      title: 'Fully compatible',
+      title: 'Ownership',
       description:
-        'Everything that works in Threejs also works in react-three-fiber',
+        'We use Flow-based, non-fungible tokens to represent ownership of individual gemstones',
     },
     {
       icon: <PerformanceSVG />,
-      title: 'Top performance',
+      title: 'Perserve Your Investment Value',
       description:
-        'Rendering performance is up to Threejs and the GPU. Components may participate in the renderloop outside of React, without any additional overhead.',
+        'With Impact you always buy and sell close to wholesale price. Thus your investment doesn’t lose half its value the moment you “drive it out of the showroom.”',
     },
     {
       icon: <ReactSVG />,
-      title: 'React ecosystem',
+      title: 'Use-case',
       description:
-        'Stick to the technologies you already now and make use of the huge ecosystem behind React.',
+        'NFTs can be traded ony any supported marketplace if off-chain gemstone is still available for claim. When you decide to redeem your non-fungible token, we will request delivery of your gemstone from vault to specified address. If you ever decide to return gemstone we will return NFT when gemstone is back in vault (may lose some value overtime) ',
     },
     {
       icon: <CrossPlatformSVG />,
       title: 'Cross platform',
       description:
-        'Write once, run anywhere. With react on the web and react-native on your mobile phone.',
+        'To claim off-chain gemstone make request on claim page by entering required information. After that confirm transaction in your wallet and pay small authorization fee. Off-chain gemstone usually takes 2 weeks to arrive, depending where you live.',
     },
   ];
 }
